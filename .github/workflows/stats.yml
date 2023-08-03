@@ -10,12 +10,12 @@ jobs:
   stat:
     runs-on: ubuntu-latest
     outputs:
-      STATS_v20: ${{ steps.benchmark.outputs.STATS_v20 }}
-      STATS_v18: ${{ steps.benchmark.outputs.STATS_v18 }}
-      STATS_v16: ${{ steps.benchmark.outputs.STATS_v16 }}
-      STATS_v14: ${{ steps.benchmark.outputs.STATS_v14 }}
-      STATS_v12: ${{ steps.benchmark.outputs.STATS_v12 }}
-      STATS_v10: ${{ steps.benchmark.outputs.STATS_v10 }}
+      STATS_v20: ${{ steps.stat.outputs.STATS_v20 }}
+      STATS_v18: ${{ steps.stat.outputs.STATS_v18 }}
+      STATS_v16: ${{ steps.stat.outputs.STATS_v16 }}
+      STATS_v14: ${{ steps.stat.outputs.STATS_v14 }}
+      STATS_v12: ${{ steps.stat.outputs.STATS_v12 }}
+      STATS_v10: ${{ steps.stat.outputs.STATS_v10 }}
 
     strategy:
       matrix:
