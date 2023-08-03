@@ -58,20 +58,21 @@ jobs:
 
       - name: Create Result files
         run: |
-          echo "${{ needs.stat.outputs.STATS_v20 }}"
-          echo "${{ needs.stat.outputs.STATS_v18 }}"
-          echo "${{ needs.stat.outputs.STATS_v16 }}"
-          echo "${{ needs.stat.outputs.STATS_v14 }}"
-          echo "${{ needs.stat.outputs.STATS_v12 }}"
-          echo "${{ needs.stat.outputs.STATS_v10 }}"
+          echo "# Node.js stats\n" > README.md
+          echo "${{ needs.stat.outputs.STATS_v20 }}" >> README.md
+          echo "${{ needs.stat.outputs.STATS_v18 }}" >> README.md
+          echo "${{ needs.stat.outputs.STATS_v16 }}" >> README.md
+          echo "${{ needs.stat.outputs.STATS_v14 }}" >> README.md
+          echo "${{ needs.stat.outputs.STATS_v12 }}" >> README.md
+          echo "${{ needs.stat.outputs.STATS_v10 }}" >> README.md
 
-      # - name: commit and push updated results
-      #   uses: github-actions-x/commit@v2.9
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     push-branch: 'main'
-      #     commit-message: 'chore(v20.x): update benchmark results'
-      #     force-add: 'true'
-      #     rebase: 'true'
-      #     files: RESULTS*.md v20/*
-      #     name: Github Actions
+      - name: commit and push updated results
+        uses: github-actions-x/commit@v2.9
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'main'
+          commit-message: 'doc: update stats'
+          force-add: 'true'
+          rebase: 'true'
+          files: README.md
+          name: Github Actions
