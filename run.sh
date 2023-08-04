@@ -11,6 +11,7 @@ kill  $PID
 STARTUP_SEMICOLON=$(hyperfine --warmup 5 'node semicolon.js')
 
 
-echo "NODE VERSION: $NODE_VERSION"
-echo "SIZE: $SIZE MB - THREADS: $THREAD_COUNT"
-echo "STARTUP: $STARTUP_SEMICOLON"
+echo "Version: $NODE_VERSION"
+echo "Binary Size: $SIZE MB"
+echo "Threads: $THREAD_COUNT"
+echo "Startup: $STARTUP_SEMICOLON"
