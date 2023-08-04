@@ -61,15 +61,15 @@ jobs:
           echo "# Node.js stats" > README.md
           echo "\`\`\`" >> README.md
           echo "${{ needs.stat.outputs.STATS_v20 }}" >> README.md
-          printf "----\n" >> README.md
+          echo "----" >> README.md
           echo "${{ needs.stat.outputs.STATS_v18 }}" >> README.md
-          printf "----\n" >> README.md
+          echo "----" >> README.md
           echo "${{ needs.stat.outputs.STATS_v16 }}" >> README.md
-          printf "----\n" >> README.md
+          echo "----" >> README.md
           echo "${{ needs.stat.outputs.STATS_v14 }}" >> README.md
-          printf "----\n" >> README.md
+          echo "----" >> README.md
           echo "${{ needs.stat.outputs.STATS_v12 }}" >> README.md
-          printf "----\n" >> README.md
+          echo "----" >> README.md
           echo "${{ needs.stat.outputs.STATS_v10 }}" >> README.md
           echo "\`\`\`" >> README.md
 
