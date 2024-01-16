@@ -7,7 +7,7 @@ else
   N=$1;
 fi
 
-echo "Note: You must run it in the Node.js folder with `main` up-to-date";
+echo "Note: You must run it in the Node.js folder with "main" up-to-date";
 
 commits_last_n_years () {
   START_DATE=$(date '+%Y');
