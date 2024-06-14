@@ -17,7 +17,7 @@ doc/api/worker_threads.md: ### `port.hasRef()`
 If true, the `MessagePort` object will keep the Node.js event loop active.
 ```
 
-If you want o have only the API name pass `PRINT_SECTION=0` as env var:
+If you want only the API title use `PRINT_SECTION=0` as env var:
 
 ```console
 $ PRINT_SECTION=0 ../nodejs-stats/experimental-features/collect.sh
