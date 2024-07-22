@@ -1,66 +1,66 @@
 # Node.js stats
 ```
-Version: v21.6.2
-Binary Size: 98.924 MB
+Version: v21.7.3
+Binary Size: 99.812 MB
 Threads: 7
 Startup: Benchmark 1: node semicolon.js
-  Time (mean ± σ):      19.6 ms ±   0.2 ms    [User: 12.5 ms, System: 7.5 ms]
-  Range (min … max):    19.1 ms …  20.2 ms    146 runs
+  Time (mean ± σ):      21.1 ms ±   0.3 ms    [User: 13.1 ms, System: 8.1 ms]
+  Range (min … max):    20.4 ms …  21.8 ms    135 runs
  
 ----
-Version: v20.11.0
-Binary Size: 94.08 MB
-Threads: 10
+Version: v20.15.1
+Binary Size: 95.748 MB
+Threads: 7
 Startup: Benchmark 1: node semicolon.js
-  Time (mean ± σ):      20.8 ms ±   0.2 ms    [User: 13.3 ms, System: 9.2 ms]
-  Range (min … max):    20.2 ms …  21.9 ms    131 runs
+  Time (mean ± σ):      21.1 ms ±   0.9 ms    [User: 13.4 ms, System: 7.8 ms]
+  Range (min … max):    20.2 ms …  30.5 ms    135 runs
  
 ----
 Version: v19.9.0
-Binary Size: 91.112 MB
+Binary Size: 91.116 MB
 Threads: 7
 Startup: Benchmark 1: node semicolon.js
-  Time (mean ± σ):      25.2 ms ±   0.4 ms    [User: 15.6 ms, System: 10.1 ms]
-  Range (min … max):    23.9 ms …  26.3 ms    113 runs
+  Time (mean ± σ):      23.8 ms ±   0.3 ms    [User: 15.0 ms, System: 8.8 ms]
+  Range (min … max):    23.4 ms …  24.9 ms    119 runs
  
 ----
-Version: v18.19.0
-Binary Size: 89.704 MB
+Version: v18.20.4
+Binary Size: 89.204 MB
 Threads: 7
 Startup: Benchmark 1: node semicolon.js
-  Time (mean ± σ):      24.4 ms ±   0.5 ms    [User: 14.7 ms, System: 10.2 ms]
-  Range (min … max):    23.4 ms …  26.0 ms    115 runs
+  Time (mean ± σ):      24.2 ms ±   0.4 ms    [User: 15.0 ms, System: 9.3 ms]
+  Range (min … max):    23.4 ms …  25.3 ms    118 runs
  
 ----
 Version: v16.20.2
 Binary Size: 80.676 MB
 Threads: 7
 Startup: Benchmark 1: node semicolon.js
-  Time (mean ± σ):      31.7 ms ±   0.7 ms    [User: 23.6 ms, System: 8.7 ms]
-  Range (min … max):    30.3 ms …  35.1 ms    93 runs
+  Time (mean ± σ):      29.8 ms ±   0.4 ms    [User: 21.7 ms, System: 7.8 ms]
+  Range (min … max):    29.2 ms …  31.4 ms    97 runs
  
 ----
 Version: v14.21.3
 Binary Size: 73.672 MB
 Threads: 7
 Startup: Benchmark 1: node semicolon.js
-  Time (mean ± σ):      30.3 ms ±   0.4 ms    [User: 22.5 ms, System: 9.1 ms]
-  Range (min … max):    29.8 ms …  32.8 ms    95 runs
+  Time (mean ± σ):      30.3 ms ±   0.6 ms    [User: 23.0 ms, System: 8.2 ms]
+  Range (min … max):    29.2 ms …  32.6 ms    96 runs
  
 ----
 Version: v12.22.12
-Binary Size: 47.788 MB
+Binary Size: 47.792 MB
 Threads: 7
 Startup: Benchmark 1: node semicolon.js
-  Time (mean ± σ):      24.8 ms ±   0.3 ms    [User: 18.1 ms, System: 7.7 ms]
-  Range (min … max):    24.3 ms …  26.2 ms    115 runs
+  Time (mean ± σ):      24.8 ms ±   0.4 ms    [User: 17.9 ms, System: 7.4 ms]
+  Range (min … max):    24.2 ms …  27.9 ms    115 runs
  
 ----
 Version: v10.24.1
 Binary Size: 40.26 MB
 Threads: 7
 Startup: Benchmark 1: node semicolon.js
-  Time (mean ± σ):      46.1 ms ±   3.4 ms    [User: 35.2 ms, System: 11.6 ms]
-  Range (min … max):    45.0 ms …  72.6 ms    63 runs
+  Time (mean ± σ):      45.8 ms ±   0.5 ms    [User: 35.8 ms, System: 10.2 ms]
+  Range (min … max):    44.9 ms …  47.2 ms    64 runs
  
 ```
